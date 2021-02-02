@@ -1,4 +1,4 @@
-package Session2;
+package Session2.Completed;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,8 +48,27 @@ public class Phone {
         this.OS = OS;
     }
 
-    public void call(){
+    public void call() {
         System.out.println("ring-ring");
     }
+
+    public void install(App app) {
+        installedApps.add(app);
+    }
+
+    public void uninstall(App app) {
+        installedApps.remove(app);
+    }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "brand='" + brand + '\'' +
+                ", installedApps=" + installedApps +
+                ", model='" + model + '\'' +
+                ", OS='" + OS + '\'' +
+                '}';
+    }
+
 
 }

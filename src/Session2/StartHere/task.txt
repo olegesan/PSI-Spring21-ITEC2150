@@ -4,10 +4,10 @@ Session 1 (done for you. Be sure to alter package name or remove it completely )
     A phone should have at least one method call - that prints out 'ring-ring'.
     In a tester create a phone with at least one app. Print out phones info, including what apps are there.
 Session 2:
-    Go to tester class and run its main method. What do you see printed out in the console? Why?
-    Go to Phone class and add toString method that returns a string. Why does your IDE complain?
-    Go to App class and also add toString method.
-    In Phone add  methods 'install' and 'remove' that would install Apps to a phone.
-        It simply should add App object to the installedApps list. What method can do that?
+    +Go to tester class and run its main method. What do you see printed out in the console? Why?
+    +Go to Phone class and add toString method that returns a string. Why does your IDE complain?
+    +Go to App class and also add toString method.
+    +In Phone add  methods 'install' and 'remove' that would install Apps to a phone.
+        +It simply should add App object to the installedApps list. What method can do that?
     In PhoneTester try to instantiate some App objects and install them to the Phone object in there or make your own phone.
-    Print out your phone and see installed apps.  
+    Print out your phone and see installed apps.
