@@ -1,0 +1,4 @@
+Create a few classes (at least two) for a Phone, App, and PhoneTester.
+A phone should have some reasonable parameters like brand, model, OS, installed apps.
+A phone should have at least one method call - that prints out 'ring-ring'.
+In a tester create a phone with at least one app. Print out phones info, including what apps are there.
