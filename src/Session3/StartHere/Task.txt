@@ -1,13 +1,13 @@
 What is inheritance? Why do we like it? How do you implement it in Java?
 this session's tasks:
-1. Create a child class to Phone and make it to your choice, i.e. "iPhone", "Galaxy S", "Pixel" (my favorite)
+TODO 1. Create a child class to Phone and make it to your choice, i.e. "iPhone", "Galaxy S", "Pixel" (my favorite)
 - What should its constructor look like? What parameters will be predefined in this child class?
-2. Create another child class to Phone.
-3. Add more attributes to App class: size, developer.
+TODO 2. Create another child class to Phone.
+TODO 3. Add more attributes to App class: size, developer.
 - most likely you will have to fix some error in PhoneTester and adjust code in toString method in App class file.
-4. Create some child classes to App class. Make them to be after your favorite apps.
+TODO 4. Create some child classes to App class. Make them to be after your favorite apps.
 - What should their constructor look like? What parameters will be predefined?
-5. In PhoneTester instantiate at least one phone after one of the classes that you made.
+TODO 5. In PhoneTester instantiate at least one phone after one of the classes that you made.
 *** this might be tricky ***
 Also, instantiate at least two apps after your custom classes. And try installing them using install method.
 *** this might be tricky ***
