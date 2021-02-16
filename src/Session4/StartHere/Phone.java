@@ -1,4 +1,4 @@
-package Session3.Completed;
+package Session4.StartHere;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,9 @@ public class Phone {
     private String model;
     private String OS;
 
+    public Phone() {
+
+    }
 
     public Phone(String brand, String model, String OS) {
         this.brand = brand;
@@ -16,6 +19,18 @@ public class Phone {
         this.OS = OS;
         installedApps = new ArrayList<>();
     }
+
+    public void uninstall(App app) {
+        installedApps.remove(app);
+    }
+
+    /**
+     * displays installed applications on the given phone by printing each app info on a new line.
+     * <p>
+     * todo: traverse the installedApps ArrayList and call toString method on each app installed.
+     * todo: you may print it out for every app or use a string builder and print out at the end.
+     */
+    //write displayIntalledApps method below
 
     public String getBrand() {
         return brand;
@@ -55,10 +70,6 @@ public class Phone {
 
     public void install(App app) {
         installedApps.add(app);
-    }
-
-    public void uninstall(App app) {
-        installedApps.remove(app);
     }
 
     @Override

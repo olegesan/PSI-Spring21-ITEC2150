@@ -51,11 +51,11 @@ public class PhoneTester {
 
 
 
-        System.out.println(cellPhone1);
+
 
         Phone pixel = new Pixel("4a 5G");
-        App nrc = new NikeRunningClub();
-        App clickUp = new ClickUp();
+        NikeRunningClub nrc = new NikeRunningClub("1.0.0");
+        ClickUp clickUp = new ClickUp();
         pixel.install(nrc);
         pixel.install(clickUp);
         System.out.println(pixel);
