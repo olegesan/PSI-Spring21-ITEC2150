@@ -5,6 +5,7 @@ public class Reddit extends App{
     private String username;
     private static int numberOfUsers = 0;
 
+
     /**
      * Default constructor for a reddit app. It provides all default values to it.
      */
@@ -15,12 +16,14 @@ public class Reddit extends App{
         incrementNumberOfUsers();
     }
 
-    /**
-     * Custom constructor that is supposed to set custom username and karma
-     */
-    public Reddit(){
+    //UNCOMMENT BEFORE WORKING
+//    /**
+//     * Custom constructor that is supposed to set custom username and karma
+//     */
+//    public Reddit(){
+//
+//    }
 
-    }
 
     public int getKarma() {
         return karma;

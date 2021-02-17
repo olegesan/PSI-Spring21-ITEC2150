@@ -1,4 +1,4 @@
-package Session4.StartHere;
+package Session4.Completed;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +31,11 @@ public class Phone {
      * todo: you may print it out for every app or use a string builder and print out at the end.
      */
     //write displayInstalledApps method below
-
+    public void displayInstalledApps(){
+        for( int i = 0; i < installedApps.size(); i++){
+            System.out.println(installedApps.get(i));
+        }
+    }
 
     public String getBrand() {
         return brand;

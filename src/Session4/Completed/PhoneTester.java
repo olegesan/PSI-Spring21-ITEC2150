@@ -1,4 +1,4 @@
-package Session4.StartHere;
+package Session4.Completed;
 
 public class PhoneTester {
     public static void main(String[] args) {
@@ -25,24 +25,22 @@ public class PhoneTester {
         pixel.install(clickUp);
 //        System.out.println(pixel);
 
-        /*
-        UNCOMMENT BEFORE DEVELOPING
+
         //testing for session 4
-        Pixel iphone = new Iphone("12 Pro");
+        Iphone iphone = new Iphone("12 Pro");
 
         // use ClickUp, NikeRunningClub that are already instantiated.
-        iphone.install();
-        iphone.install();
+        iphone.install(clickUp);
+        iphone.install(nrc);
 
         //make an instance of Reddit app using custom constructor
         // hint: you will have to pass some parameters to the constructor
-        Reddit reddit = new Reddit();
+        Reddit reddit = new Reddit(100500, "ElonMusk_on_the_moon");
         iphone.install(reddit);
 
         //display all the apps and their info installed on iphone.
         //Be sure to display karma and username of reddit app.
         iphone.displayInstalledApps();
-         */
 
 
 
