@@ -1,0 +1,21 @@
+Welcome to midterm review practice.
+
+I tried to guess what will be in the files for midterm and
+added a little cherry on top of it to challenge you just a bit.
+
+Two packages:
+-Character
+-Pet
+
+First, start with Pet package.
+1. Look at Pet class.
+2. Look at Dog class. Check out constructor, to string and voice methods.
+3. Implement Cat class in the likeness of Dog class. Be sure to follow the skeleton comment
+in Cat class file
+4. Test your creation in PetTester class.
+
+Secondly, if you still have time, look at Character package.
+1. Look at AnimeCharacter class.
+2. Look at CharacterTester class. See the order of constructor parameters.
+3. Uncomment Commoner and Mage (I had to comment them to allow PetTask package compile and run).
+4. Implement Commoner and Mage classes to match skeleton. Some methods were implemented for you already.
