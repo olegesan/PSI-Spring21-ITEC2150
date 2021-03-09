@@ -16,44 +16,31 @@ public class PhoneTester {
         OnePLus6 onePLus = new OnePLus6();
         System.out.println(onePLus);
 
+        String[][] shoes = {
+                {
+                        "Nike AriMax",
+                        "Adidas lol",
+                        "New Balance low",
+                        "Shlyopancy"
+                },
+                {
+                        "Galoshy",
+                        "Tapki",
+                        "Valenki",
+                }
 
+        };
+        for (int firstLevel = 0; firstLevel < shoes.length; firstLevel++) {
+            for(
+                    int secondLevel = 0;
+                    secondLevel < shoes[firstLevel].length;
+                    secondLevel++
+            ){
+                System.out.println(shoes[firstLevel][secondLevel]);
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        Phone pixel = new Pixel("4a 5G");
+        }
+                Phone pixel = new Pixel("4a 5G");
         NikeRunningClub nrc = new NikeRunningClub("1.0.0");
         ClickUp clickUp = new ClickUp();
         pixel.install(nrc);

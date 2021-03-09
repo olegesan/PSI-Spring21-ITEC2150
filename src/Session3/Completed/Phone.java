@@ -8,6 +8,7 @@ public class Phone {
     private List<App> installedApps;
     private String model;
     private String OS;
+    private static int serialNumber = 1;
 
 
     public Phone(String brand, String model, String OS) {
@@ -15,6 +16,7 @@ public class Phone {
         this.model = model;
         this.OS = OS;
         installedApps = new ArrayList<>();
+        serialNumber+=1;
     }
 
     public String getBrand() {

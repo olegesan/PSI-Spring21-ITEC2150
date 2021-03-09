@@ -1,0 +1,34 @@
+Side note:
+    Welcome back after your midterm exam! I hope you did well.
+    If you didn't, I am especially glad that you read this document.
+    When we fail, we get strong motivation to get better and to overcome
+    the challenges that we face. Please, consider the way you approach problems,
+    the way you think about studying, how soon you give up, and what you do to
+    resolve those problems. Internet, instructor, slides, peers, someone must have the answers.
+    You just need to find them.
+
+Session 7_1 task, we will dip our toes in the interface world. I want to give all the idea credit to Angela Yu, udemy course instructor
+    Today we are helping birds to fly but not all birds can fly.
+    Topic:
+        Interfaces, Abstract Classes, Exception Handling.
+    Description:
+        - create a bird abstract class that has bird kind and whether or not the bird is female.
+         Also it has methods that allow to layEggs if the bird is female (implemented) and
+         fly (should not implement)
+        - Now we are to create three classes of penguin, eagle and fly museum. (don't bother with getters and setters)
+          Well, eagle can soar in addition to just flying and has 'eagle' for its kind.
+          Penguin just has its kind set to 'penguin'.
+          Fly museum has a method that accepts an object that can fly to put it in the fly museum and print out
+          "{kind} was put in the fly museum. Woot woot!"
+        - in the tester now go ahead and make eagle, penguin, fly museum.
+          Call fly methods on both, and put both in the fly museum.
+          Is there something wrong?
+
+        - Well, ostriches and penguins cannot fly.
+         So, how are we going to solve this problem? Use interfaces!
+        - Let's make an interface "CanFly" that simply has one void method fly and refactor Bird, FlyMuseum, Eagle
+        classes.
+
+    BONUS:
+        add an age attribute to bird class and accept input from the user to handle it.
+        Use try catch to handle exception in case user input invalid number (i.e. String, char)
