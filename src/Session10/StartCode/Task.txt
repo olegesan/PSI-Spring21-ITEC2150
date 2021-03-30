@@ -1,0 +1,25 @@
+Hello everyone.
+
+Today we will practice reading files with some fun exercise.
+Have you heard about Caesar Cipher? This is a very old way of encrypting messages
+
+It is operating on a modified alphabet where every letter is shifted to the left against original alphabet
+You can read more about it here: https://en.wikipedia.org/wiki/Caesar_cipher
+Plain	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
+Cipher	X	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
+this is an example of shift 23.  Shift of 26 would make one circle and put all letters back to its original place.
+It is not secure at all, there are only 25 combinations possible to crack this code.
+
+I've prepared for you some files with secret messages. Our job today is to "crack" them.
+To make it easier, I put shift value in the very beginning of a line and separated it with a space.
+The reset of the line is the encrypted message.
+I also made two helpful methods for you to encode and decode messages.
+They are both static methods of CipherHelper:
+CipherHelper.decodeCaesarCipher(<encrypted message>, <shift>)
+
+So what do we do?
+1. Make a method to read a file and get back the text from it as a String.
+2. write a method to get shift value from that string
+3. write a method to get encrypted message value from that string (you don't have to do it, the decoder still would do it's job, but this is a good exercise for you)
+4. decode the messages and be proud of yourself, hacker.
+5. Hack Russians. Just kidding, they've already hacked you. (It is also a joke)
