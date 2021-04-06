@@ -3,8 +3,8 @@ package Session10.StartCode;
 
 public class Main {
     public static void main(String[] args) {
-        String encryptedString = "Pilxawp";
-        String plainText = CipherHelper.decodeCaesarCipher(encryptedString,11);
+        String encryptedString = "RRN CZNVD!";
+        String plainText = CipherHelper.decodeCaesarCipher(encryptedString,3);
         System.out.println(plainText);
 
         String plainText2 = "Example";
