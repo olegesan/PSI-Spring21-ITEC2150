@@ -1,0 +1,9 @@
+Hey there,
+
+We will work with generics.
+
+1. Look over the files Athlete, Team, TeamPlayer. The code there is written for you.
+2. Look at BasketballPlayer and FootballPlayer classes. The code is written for you, however you need to
+fix error (they have something to do with inheritance and generics)
+3. Look at Main.java. Follow the instructions and observe the results
+4. What did you learn/practice today?
